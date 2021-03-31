@@ -36,6 +36,7 @@ const MyPage = () => {
         </ul>
       </S.Header>
       <S.Introduce>
+        <h1>Introduce</h1>
         <S.ProfileWrapper>
           <div className="profile">
             <img src={강은빈} alt="나" />
@@ -57,6 +58,7 @@ const MyPage = () => {
           </div>
         </S.ProfileWrapper>
       </S.Introduce>
+      <S.Skills></S.Skills>
     </S.MainWrapper>
   );
 };

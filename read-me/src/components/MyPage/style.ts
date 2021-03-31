@@ -46,13 +46,17 @@ const Introduce = styled.div`
   border-bottom: 2px solid #91a3c7;
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  h1 {
+    color: #5c7aa6;
+    margin-left: 54px;
+  }
 `;
 
 const ProfileWrapper = styled.div`
+  margin: 0 auto;
   width: 90%;
   height: 90%;
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -60,7 +64,6 @@ const ProfileWrapper = styled.div`
 
   .profile {
     width: 350px;
-    border: 1px solid red;
 
     img {
       width: 100%;
@@ -75,9 +78,14 @@ const ProfileWrapper = styled.div`
 
     span {
       font-size: 30px;
-      font-family: "Gamja Flower", cursive;
+      font-family: "Do Hyeon", sans-serif;
     }
   }
 `;
 
-export { MainWrapper, Header, Introduce, Information, ProfileWrapper };
+const Skills = styled.div`
+  width: 100%auto;
+  height: 700px;
+`;
+
+export { MainWrapper, Header, Introduce, Information, ProfileWrapper, Skills };
