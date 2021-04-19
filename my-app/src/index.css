@@ -4,8 +4,35 @@ body {
   background-color: #91a3c7;
 }
 
+* {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+
+/* font-family: 'Sunflower', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500&display=swap");
+
+@keyframes anim {
+  0% {
+    margin-top: 0;
+  }
+  16% {
+    margin-top: -60px;
+  }
+
+  33% {
+    margin-top: -120px;
+  }
+}
